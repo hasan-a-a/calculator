@@ -4,6 +4,7 @@ h1{
 }
 .shape{
     border: solid 1px;
+    background-color: #395b64;
     border-radius: 20px;
     width: 500px;
     height: 500px;
@@ -17,7 +18,4 @@ h1{
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     background-color: black;
-
-    
-
 }
