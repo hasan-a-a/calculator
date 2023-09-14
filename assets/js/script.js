@@ -1,6 +1,6 @@
 let outputEl = document.getElementById("output")
 let btnCEl = document.getElementById("btnC")
-let btn_clearEl = document.getElementById("btn_clear")
+let btn_deleteEl = document.getElementById("btn_delete")
 let btn_plusEl = document.getElementById ("btn_plus")
 let btn1El = document.getElementById ("btn1")
 let btn2El = document.getElementById ("btn2")
@@ -22,4 +22,34 @@ document.title = "calculator"
 btnCEl.addEventListener("click",function(){
    
     
+})
+btn0El.addEventListener("click", function(){
+    outputEl.innerHTML += `0`
+})
+btn1El.addEventListener("click", function(){
+    outputEl.innerHTML += `1`
+})
+btn2El.addEventListener("click", function(){
+    outputEl.innerHTML += `2`
+})
+btn3El.addEventListener("click", function(){
+    outputEl.innerHTML += `3`
+})
+btn4El.addEventListener("click", function(){
+    outputEl.innerHTML += `4`
+})
+btn5El.addEventListener("click", function(){
+    outputEl.innerHTML += `5`
+})
+btn6El.addEventListener("click", function(){
+    outputEl.innerHTML += `6`
+})
+btn7El.addEventListener("click", function(){
+    outputEl.innerHTML += `7`
+})
+btn8El.addEventListener("click", function(){
+    outputEl.innerHTML += `8`
+})
+btn9El.addEventListener("click", function(){
+    outputEl.innerHTML += `9`
 })
