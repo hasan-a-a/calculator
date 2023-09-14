@@ -20,8 +20,7 @@ let divisionEl = document.getElementById ("division")
 document.title = "calculator"
 
 btnCEl.addEventListener("click",function(){
-   
-    
+    outputEl.innerHTML = ``
 })
 btn0El.addEventListener("click", function(){
     outputEl.innerHTML += `0`
