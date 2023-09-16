@@ -6,9 +6,12 @@ h1{
     border: solid 1px;
     background-color: #395b64;
     border-radius: 20px;
-    width: 500px;
+    width: 400px;
     height: 500px;
     margin-left: 34%;
+    text-align: center;
+    
+
 }
 .screen{
     border: solid 1px;
@@ -24,3 +27,22 @@ h1{
     color: white;
     text-align: right;
 }
+.division, .clear {
+    width: 170px;
+    height: 40px;
+
+}
+button {
+    display: flexbox;
+    justify-content: space-between;
+    width: 80px;
+    height: 50px;
+    padding: 30px;
+    margin: 2px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
