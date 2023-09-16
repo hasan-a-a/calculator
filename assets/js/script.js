@@ -22,6 +22,9 @@ document.title = "calculator"
 btnCEl.addEventListener("click",function(){
     outputEl.innerHTML = ``
 })
+btn_deleteEl.addEventListener("click",function(){
+    outputEl.innerHTML = outputEl.innerHTML.toString().slice(0,-1) 
+})
 btn0El.addEventListener("click", function(){
     outputEl.innerHTML += `0`
 })
@@ -51,4 +54,23 @@ btn8El.addEventListener("click", function(){
 })
 btn9El.addEventListener("click", function(){
     outputEl.innerHTML += `9`
+})
+btn_plusEl.addEventListener("click", function(){
+    outputEl.innerHTML += `+`
+})
+minusEl.addEventListener("click", function(){
+    outputEl.innerHTML += `-`
+})
+multipleEl.addEventListener("click", function(){
+    outputEl.innerHTML += `*`
+})
+powerEl.addEventListener("click", function(){
+    outputEl.innerHTML += `^`
+})
+divisionEl.addEventListener("click", function(){
+    outputEl.innerHTML += `/`
+})
+equalEl.addEventListener("click", function(){
+    outputEl.innerHTML = eval(outputEl.innerHTML)
+
 })
