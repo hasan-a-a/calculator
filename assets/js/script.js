@@ -65,12 +65,13 @@ multipleEl.addEventListener("click", function(){
     outputEl.innerHTML += `*`
 })
 powerEl.addEventListener("click", function(){
-    outputEl.innerHTML += `^`
+    outputEl.innerHTML += `**`
 })
 divisionEl.addEventListener("click", function(){
     outputEl.innerHTML += `/`
 })
 equalEl.addEventListener("click", function(){
     outputEl.innerHTML = eval(outputEl.innerHTML)
+    
 
 })
